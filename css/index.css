@@ -1,9 +1,14 @@
 .header-font h1,
 .header-font h2,
-.header-font h3 {
+.header-font h3,
+.header-font a {
   color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
+  text-decoration: none;
+}
+body {
+  margin: 0%;
 }
 header {
   background-image: url('../img/hero.jpg');
@@ -12,17 +17,74 @@ header {
 }
 header h1,
 header h2,
-header h3 {
+header h3,
+header a {
   color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
+  text-decoration: none;
+}
+header .mobile {
+  display: none;
 }
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  border-bottom: 1px solid white;
 }
-header .hero {
+header nav h2 {
+  padding: 1.5% 8%;
+}
+header nav h2:hover {
+  text-decoration: underline;
+}
+header .header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 12%;
+}
+header .header-content h1,
+header .header-content h2 {
+  margin-left: 5%;
+}
+header .header-content h1 {
+  font-size: 72px;
+  font-weight: 100;
+  margin-bottom: 0%;
+}
+@media (max-width: 1360px) {
+  header {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 1020px) {
+  header nav h2 {
+    display: none;
+  }
+  header .mobile {
+    display: flex;
+    width: 10%;
+  }
+  header .header-content {
+    margin: 8%;
+  }
+  header .header-content h1 {
+    font-size: 36px;
+  }
+  header .header-content h2 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 500px) {
+  header .header-content {
+    margin: 8%;
+  }
+  header .header-content h1 {
+    font-size: 24px;
+  }
+  header .header-content h2 {
+    font-size: 10px;
+  }
 }
