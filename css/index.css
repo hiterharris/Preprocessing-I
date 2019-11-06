@@ -7,6 +7,16 @@
   font-weight: 300;
   text-decoration: none;
 }
+.content-font h1,
+.content-font h2,
+.content-font h3,
+.content-font p,
+.content-font a {
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
 body {
   margin: 0%;
 }
@@ -87,4 +97,87 @@ header .header-content h1 {
   header .header-content h2 {
     font-size: 10px;
   }
+}
+.about h1,
+.about h2,
+.about h3,
+.about p,
+.about a {
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.about .about-top {
+  display: flex;
+  justify-content: space-around;
+}
+.about .about-top h2 {
+  text-decoration: underline;
+}
+.about .about-top .bio {
+  width: 40%;
+  margin: 3%;
+  line-height: 2.5;
+}
+.about .about-top .skills {
+  width: 20%;
+  margin: 3%;
+}
+.about .about-top .skills div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about .about-top .skills p {
+  margin-right: 20%;
+}
+.wrapper h1,
+.wrapper h2,
+.wrapper h3,
+.wrapper p,
+.wrapper a {
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.wrapper h2 {
+  margin-left: 10%;
+  text-decoration: underline;
+}
+.experience {
+  display: flex;
+  justify-content: center;
+  padding: 0% 5% 5%;
+}
+.experience .job {
+  width: 40%;
+  margin: auto;
+}
+.experience .job .monkeybread {
+  width: 50%;
+}
+footer {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer h1,
+footer h2,
+footer h3,
+footer a {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+footer h2 {
+  text-decoration: underline;
+}
+footer a {
+  margin: 1%;
+}
+footer a:hover {
+  text-decoration: underline;
 }
