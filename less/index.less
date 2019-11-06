@@ -1,12 +1,44 @@
 // Run: less-watch-compiler less css index.less
 
 // OBJECTIVES:
-// Variables
-// Nesting
-// Mixins
+// *Variables
+// *Nesting
+// *Mixins
 // Mobile
 
 // STRETCH:
 // Google font
 // Convert Great Idea into LESS
 // Create link to portfolio page that would allow users to see your work
+
+// VARIABLES
+@200: 200;
+
+
+// MIXINs
+.header-font {
+    h1, h2, h3 {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+    }
+}
+
+
+// STYLES
+header {
+    .header-font();
+    background-image: url('../img/hero.jpg');
+    height: 100vh;
+    background-size: cover;
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
