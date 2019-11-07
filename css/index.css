@@ -1,1 +1,195 @@
-/* Compile your LESS file! */
+.header-font h1,
+.header-font h2,
+.header-font h3,
+.header-font a {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+.content-font h1,
+.content-font h2,
+.content-font h3,
+.content-font p,
+.content-font a {
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+body {
+  margin: 0%;
+}
+header {
+  background-image: url('../img/hero.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+header h1,
+header h2,
+header h3,
+header a {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+header .mobile {
+  display: none;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
+header nav h2 {
+  padding: 1.5% 8%;
+}
+header nav h2:hover {
+  text-decoration: underline;
+}
+header .header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12%;
+}
+header .header-content h1,
+header .header-content h2 {
+  margin-left: 5%;
+}
+header .header-content h1 {
+  font-size: 72px;
+  font-weight: 100;
+  margin-bottom: 0%;
+}
+@media (max-width: 1360px) {
+  header {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 1020px) {
+  header nav h2 {
+    display: none;
+  }
+  header .mobile {
+    display: flex;
+    width: 10%;
+  }
+  header .header-content {
+    margin: 8%;
+  }
+  header .header-content h1 {
+    font-size: 36px;
+  }
+  header .header-content h2 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 500px) {
+  header .header-content {
+    margin: 8%;
+  }
+  header .header-content h1 {
+    font-size: 24px;
+  }
+  header .header-content h2 {
+    font-size: 10px;
+  }
+}
+.about {
+  background-image: url('../img/about.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about h1,
+.about h2,
+.about h3,
+.about p,
+.about a {
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.about .about-top {
+  display: flex;
+  justify-content: space-around;
+}
+.about .about-top .bio {
+  width: 40%;
+  margin: 3%;
+  line-height: 2.5;
+}
+.about .about-top .bio h2 {
+  text-decoration: underline;
+  color: white;
+  font-size: 32px;
+}
+.about .about-top .bio p {
+  color: white;
+  font-size: 18px;
+}
+.about .about-top .skills {
+  width: 20%;
+  margin: 25% 3%;
+}
+.about .about-top .skills h2 {
+  font-size: 32px;
+  text-decoration: underline;
+}
+.about .about-top .skills p {
+  margin-right: 20%;
+  font-size: 18px;
+}
+.wrapper h1,
+.wrapper h2,
+.wrapper h3,
+.wrapper p,
+.wrapper a {
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.wrapper h2 {
+  margin-left: 10%;
+  text-decoration: underline;
+}
+.experience {
+  display: flex;
+  justify-content: center;
+  padding: 0% 5% 5%;
+}
+.experience .job {
+  width: 40%;
+  margin: auto;
+}
+.experience .job .monkeybread {
+  width: 50%;
+}
+footer {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer h1,
+footer h2,
+footer h3,
+footer a {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+footer h2 {
+  text-decoration: underline;
+}
+footer a {
+  margin: 1%;
+}
+footer a:hover {
+  text-decoration: underline;
+}

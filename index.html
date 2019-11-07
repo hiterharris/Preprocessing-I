@@ -1,19 +1,90 @@
 <!doctype html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiter Harris</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
 
-  <title>My Resume</title>
+  <body>
 
-  <link rel="stylesheet" href="css/index.css">
+    <header>
+      <!-- NAV -->
+      <nav>
+        <h2><a href="#">Home</a></h2>
+        <h2><a href="#about">About</h2></a>
+        <h2><a href="#experience">Experience</h2></a>
+        <h2><a href="https://www.https://hiterharris.github.io/" target="_blank">Work</h2></a>
+      </nav>
+      <img class="mobile" src="./img/mobile.png" alt="mobile-menu">
+      
+      <!-- HERO -->
+      <section class="header-content">
+        <!-- <img class="hero-img" src="./img/hero.jpg" alt=""> -->
+        <h1>Hiter Harris</h1>
+        <h2>Full Stack Web Developer</h2>
+      </section>
+    </header>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about-top">
 
-<body>
-  <h1>My Resume</h1>
-</body>
+        <div class="bio">
+          <h2>About Me</h2>
+          <p>My journey as a front end engineer started as a student at the Iron Yard Coding School where I learned the basics of web design and development and applied them to different projects.  The design skills included understanding the design process, sketching, wire-framing, mockups, and prototypes.  The development skills included HTML, CSS/SASS, and JavaScript/jQuery.  Having the background in both design and development is important to me because I now have worked with designers as a developer as well as having worked with developers as a designer.  The Iron Yard gave me a good introduction to design and development but after graduating I knew I wanted to focus more on development.</p>
+
+          <p>My name is Hiter Harris and I am a front-end engineer and UI/UX designer. I’m a former NCAA track & field athlete and member of the USA bobsled team.</p>
+
+          <p> I’m passionate about self improvement whether it’s in my career, education, or health. I enjoy waking up each day with the opportunity to get better at something.</p>
+           
+         <p>I want to continue to use the skills I’ve learned to design and build new projects for others to use to make their lives easier.</p>
+        </div>
+
+        <div class="skills">
+          <h2>Skills</h2>
+          <div>
+            <p>React</p>
+            <p>React Native</p>
+            <p>Node</p>
+            <p>GraphQL</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>SASS/LESS</p>
+            <p>JavaScript</p>
+            <p>Git</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section class="wrapper" id="experience">
+        <h2>Experience</h2>        
+        <div class="experience">
+            <div class="job">
+              <img class="monkeybread" src="./img/monkeybread.png" alt="">
+              <h3>Front End Engineer</h3>
+              <p>As a front end engineer at Levvel, I worked on a full stack web application for the company’s intranet that allows employees to nominate and vote for co-workers based on how they exemplify Levvel’s core values.  My work focused on implementing the nomination flow, voter flow, and admin page.  I used React for the front end, Node and Express for the back end.  I also used Apollo Client to fetch data from our API and GraphQL to write queries and mutations to access and update the database.</p>
+            </div>
+
+            <div class="job">
+              <img class="levvel" src="./img/levvel.svg" alt="">
+              <h3>Front End Engineer</h3>
+              <p>As a front end engineer at Levvel, I worked on a full stack web application for the company’s intranet that allows employees to nominate and vote for co-workers based on how they exemplify Levvel’s core values.  My work focused on implementing the nomination flow, voter flow, and admin page.  I used React for the front end, Node and Express for the back end.  I also used Apollo Client to fetch data from our API and GraphQL to write queries and mutations to access and update the database.</p>
+            </div>
+          
+          </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <h2>Contact</h2>
+      <a href="">hiterharris@comcast.net</a>
+      <a href="">(804) 239-5337</a>
+      <a href="https://github.com/hiterharris" target="_blank">GitHub</a>
+    </footer>
+
+  </body>
 </html>
